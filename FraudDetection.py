@@ -30,6 +30,7 @@ drive.mount('/content/drive')
 import pandas as pd
 
 # Load the dataset
+#Kaggle : https://www.kaggle.com/datasets/jainilcoder/online-payment-fraud-detection/data
 data = pd.read_csv('/content/drive/MyDrive/Onlinefraud.csv')
 print(data.head())
 
